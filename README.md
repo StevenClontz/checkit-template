@@ -20,11 +20,11 @@ Use Cmd/Ctrl + Shift + P -> View Creation Log to see full logs
 
 Quick instructions:
 
-`
+```
 python -m checkit generate
 python -m checkit viewer
 python -m http.server
-`
+```
 
 ## About CheckIt
 
