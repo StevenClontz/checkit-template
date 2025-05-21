@@ -23,7 +23,7 @@ Quick instructions:
 ```
 python -m checkit generate
 python -m checkit viewer
-python -m http.server
+python -m http.server -d docs
 ```
 
 ## About CheckIt
