@@ -14,16 +14,16 @@ devcontainer process exited with exit code 0
 Finished configuring codespace.
 ```
 
-- Open a new terminal and run `python -m checkit --help` for options.
+- Open a new terminal and run `sage --python -m checkit --help` for options.
 
 ## Previewing bank
 
 Quick instructions:
 
 ```
-python -m checkit generate
-python -m checkit viewer
-python -m http.server -d docs
+sage --python -m checkit generate  # add -ri to get images (slow)
+sage --python -m checkit viewer
+sage --python -m http.server -d docs
 ```
 
 ## About CheckIt
