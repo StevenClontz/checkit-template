@@ -12,5 +12,13 @@
 Simplify the sum of two monomials.
             </description>
         </outcome>
+        <outcome>
+            <title>Sample Image Outcome</title>
+            <slug>IMG1</slug>
+            <path>outcomes/IMG1</path>
+            <description>
+Example of generating graphics.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
