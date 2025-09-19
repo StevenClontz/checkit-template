@@ -5,13 +5,13 @@
 - Click "Use this template" to create a new repository.
 - On the new repository, click "Code" and select the "Codespaces" tab.
   Then click "Create codespace on main".
-- You should be good to go once the following message finishes:
+- After it finishes "Setting up remote connection",
+  you should be good to go once the following message displays
+  in a terminal:
 
 ```
-Use Cmd/Ctrl + Shift + P -> View Creation Log to see full logs
-✔ Finishing up...
-⠏ Running postCreateCommand...
-  › bash .devcontainer/setup.sh
+devcontainer process exited with exit code 0
+Finished configuring codespace.
 ```
 
 - Open a new terminal and run `python -m checkit --help` for options.
