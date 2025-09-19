@@ -1,8 +1,5 @@
 {
   "image": "sagemath/sagemath:latest",
-  "features": {
-    "ghcr.io/devcontainers/features/git:1": {}
-  },
   "postCreateCommand": "sage -pip install -r requirements.txt",
   
   "customizations": {
