@@ -1,5 +1,8 @@
 {
-  "image": "sagemath/sagemath:latest",
+  "name": "CheckIt Bank",
+  "build": {
+      "dockerfile": "Dockerfile"
+  },
   "postCreateCommand": "sage -pip install -r requirements.txt",
   
   "customizations": {
