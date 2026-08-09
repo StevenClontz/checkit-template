@@ -1,1 +1,1 @@
-checkit-dashboard == 0.2.8
+checkit-dashboard == 0.2.9
